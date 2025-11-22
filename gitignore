@@ -1,0 +1,355 @@
+# ===========================
+# Python
+# ===========================
+# Byte-compiled 
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution 
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test 
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ===========================
+# MLflow
+# ===========================
+mlruns/
+mlartifacts/
+mlflow.db
+*.db
+
+# ===========================
+# Data Files
+# ===========================
+# Raw and processed data
+data/
+data/raw/
+data/processed/
+data/external/
+data/interim/
+
+# Large dataset files
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+
+
+
+# ===========================
+# Model Files
+# ===========================
+models/
+*.pkl
+*.h5
+*.hdf5
+*.pb
+*.pth
+*.pt
+*.ckpt
+*.sav
+*.model
+*.joblib
+*.onnx
+
+# TensorFlow
+*.tfrecord
+*.tflite
+
+# PyTorch
+*.pth.tar
+
+# ===========================
+# AWS
+# ===========================
+# AWS credentials and config
+.aws/
+aws_credentials.json
+credentials.json
+
+# S3 sync artifacts
+.s3cfg
+
+# ===========================
+# IDE and Editors
+# ===========================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ===========================
+# Operating System
+# ===========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===========================
+# Logs and Temp Files
+# ===========================
+logs/
+*.log
+log/
+temp/
+tmp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ===========================
+# Jupyter Notebook Outputs
+# ===========================
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# ===========================
+# DVC (Data Version Control)
+# ===========================
+.dvc/
+.dvc/cache/
+.dvc/tmp/
+
+# ===========================
+# Docker
+# ===========================
+docker-compose.override.yml
+.dockerignore
+
+# ===========================
+# Secrets and Credentials
+# ===========================
+
+.env
+.env.local
+.env.*.local
+*.env
+
+# API keys and secrets
+secrets/
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+
+# Config files with sensitive info
+config/local.yml
+config/secrets.yml
+
+# ===========================
+# Build and Deployment
+# ===========================
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ===========================
+# Documentation
+# ===========================
+docs/_build/
+docs/.doctrees/
+
+# ===========================
+# Experiment Tracking
+# ===========================
+# Weights & Biases
+wandb/
+
+# TensorBoard
+runs/
+tensorboard/
+
+# Neptune
+.neptune/
+
+# ===========================
+# Cache Directories
+# ===========================
+.cache/
+*.cache
+
+# ===========================
+# Miscellaneous
+# ===========================
+# Backup files
+*.bak
+*.backup
+*~
+
+# Compressed files 
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Large binary files
+*.bin
+*.exe
+*.dll
+
+# ===========================
+
